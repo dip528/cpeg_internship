@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Francois+One|Merriweather');
+
+*{
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+#header {
+  text-align: center; background-color: black; 
+  color: red;
+  font-family: 'Nosifer', cursive;
+  height: 200px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#what {
+    text-align: center;
+    background-color: slategray;
+    font-family: 'Merriweather', serif;
+    border: 5px solid green;
+  }
+  
+#what h1 {
+  font-family: 'Nosifer', cursive;
+}
+#focus {
+  text-align: center;
+  background-color: slategray;
+  font-family: 'Merriweather', serif;
+  border: 5px solid green;
+  
+}
+
+#focus h1 {
+  font-family: 'Nosifer', cursive;
+}
+#approach {
+  text-align: center;
+  background-color: slategray;
+  font-family: 'Merriweather', serif;
+  border: 5px solid green;
+}
+#approach h1 {
+  font-family: 'Nosifer', cursive;
+}
+#staff {
+  text-align: center;
+  background-color: slategray;
+  font-family: 'Merriweather', serif;
+  border: 5px solid green;
+}
+#staff h1 {
+  font-family: 'Nosifer', cursive;
+}
+#main {
+  display:flex;
+  height: calc(100vh - 250px); 
+}
+
+#content {
+  overflow-y: scroll;
+}
+body {
+  background-color: pink;
+}
+#navigation {
+  font-family: 'Nosifer', cursive;
+  border: 5px solid green;
+  background-color: crimson;
+}
+footer {
+  text-align: center; background-color: black; 
+  color: red;
+  font-family: 'Nosifer', cursive;
+  height: 50px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* back, initially hidden pane */
+.back {
+  transform: rotateY(180deg);
+}
+
+
+
+.card img {
+  width:30%;
+}
+
+.card-content {
+  overflow:auto;
+}
+
+.floating-left {
+  float:left;
+}
+
+
+.clear-float {
+  clear:both;
+}
+/*
+#soldier {
+  float: right;
+}
+#bridget {
+  float: left;
+}
+#spearfinger {
+  float:right;
+}
+*/
